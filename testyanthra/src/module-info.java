@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ramir
+ *
+ */
+module testyanthra {
+}
