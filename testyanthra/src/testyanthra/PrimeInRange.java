@@ -9,9 +9,11 @@ public class PrimeInRange {
 		System.out.println("Enter range:");
 		int n=scn.nextInt();
 		
-		for(int i=0;i<=n;i++) {
+		for(int i=1;i<=n;i++) {
 			boolean flag=true;
-			if(i<=1) continue;
+			if(i<=1) {
+				continue;
+			}
 			
 			for(int j=2;j<=i/2;j++) {
 				if(i%j==0) {
@@ -19,8 +21,11 @@ public class PrimeInRange {
 					break;
 				}
 			}
-			if(flag) {
-				System.out.print(i+" ");
+			if(flag==true) {
+				System.out.println(i+" prime");
+			}
+			else {
+				System.out.println(i+"not prime ");
 			}
 		}
 		

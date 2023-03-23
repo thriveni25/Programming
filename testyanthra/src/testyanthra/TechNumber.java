@@ -16,10 +16,15 @@ public class TechNumber {
 		}
 		
 		if(count%2==0) {
+			int t=1;
 			int div=count/2;
-			int d1=num%(int)Math.pow(10, div);
-			int d2=num/(int)Math.pow(10, div);
-			
+			for(int i=1;i<=div;i++) {
+				t*=10;
+			}
+			//int d1=num%(int)Math.pow(10, div);
+			//int d2=num/(int)Math.pow(10, div);
+			int d1=num%t;
+			int d2=num/t;
 			int sum=d1+d2;
 			int sqr1=sum*sum;
 			if(sqr1==num) {

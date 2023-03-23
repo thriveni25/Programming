@@ -4,38 +4,34 @@ import java.util.Scanner;
 public class NamePattern
 {
     public static void main(String[] args)
+    
     {
-      int row;
-      // create scanner class to take user input
-      Scanner sc= new Scanner(System.in);
-      System.out.print("Enter num = ");
-      row=sc.nextInt();
-      int c, r;
-      int x = 1;
-      // store row*2-1 value in y
-      int y = row * 2 - 1;
-        
-      // loop to iterate through rows
-      for (r = 1; r <= row; r++)
-      {
-        // iterate inner loop from 1 till row*2
-        for (c = 1; c <= row * 2; c++)
-        {
-          // if c= x or y print the symbol, else space 
-          if (c == x || c == y)
-          {
-            System.out.print("*");
-          }
-          else
-          {
-            System.out.print(" ");
-          }
-        }
-        // increment x
-        x++;
-        // decrement y
-        y--;
-        System.out.println("");
-      }        
+    	System.out.println("");
+    	System.out.println("");
+    	System.out.println("=================================MY SOUL ======================================");
+    	
+    	System.out.println("");
+    	System.out.println("");
+    	System.out.println("H       H  B B B    D D D D      K   K     A     N   N  N   N     A         ");
+    	System.out.println("H       H  B     B  D       D    K  K     A A    NN  N  NN  N    A A           ");
+    	System.out.println("H H H H H  B B B B  D       D    K K     A A A   N N N  N N N   A A A          ");
+    	System.out.println("H       H  B     B  D       D    K  K   A     A  N  NN  N  NN  A     A        ");
+    	System.out.println("H       H  B B B    D D D D      K   K A       A N   N  N   N A       A     ");
+    	
+    	System.out.println("");
+    	System.out.println("");
+    	//System.out.println();
+    	System.out.println("=================================MY SOUL ======================================");
+    	
+    	
+//    	System.out.println("K	  K  	   A        N N     N N N     N       A       ");
+//    	System.out.println("K    K        A A       N  N    N N  N    N      A A      ");
+//    	System.out.println("K   K        A   A      N   N   N N   N   N     A   A     ");
+//    	System.out.println("K K         A A A A     N    N  N N    N  N    A A A A    ");
+//    	System.out.println("K   K      A       A    N     N N N     N N   A       A   ");
+//    	System.out.println("K    K    A         A   N      NN N      NN  A         A  ");
+//    	System.out.println("K     K  A           A  N       N N       N A           A ");
+    	
     }
+    
 }

@@ -1,4 +1,4 @@
-package testyanthra;
+ package testyanthra;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Sumofprime40to50 {
 		
         int sum = 0;
         for(int i=40;i<=50;i++) {
-			if(n<=1) continue;
+			//if(n<=1) continue;
 			boolean flag=true;
 			for(int j=2;j<=i/2;j++) {
 				if(i%j==0) {

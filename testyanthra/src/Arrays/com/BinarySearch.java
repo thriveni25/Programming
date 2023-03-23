@@ -7,7 +7,7 @@ public class BinarySearch {
 		int low=0;
 		int high=a.length;
 		int mid=(low+high)/2;
-		int key=0;
+		int key=30;
 		boolean flag=false;
 		while(low<=high) {
 			mid = (low+high)/2;
@@ -26,7 +26,7 @@ public class BinarySearch {
 		  }
 		
 		}
-		if(flag==true) System.out.println("Element found "  +mid);
+		if(flag==true) System.out.println("Element found at index  "  +mid);
 		else System.out.println("Element not found");
 	}
 
