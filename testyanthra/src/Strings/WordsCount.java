@@ -4,7 +4,7 @@ public class WordsCount {
 
 	public static void main(String[] args) {
 		
-			 String s=" hi hello world  ";
+			 String s="v  v v ram";
 			 int count=1;
 			 if(s.charAt(0)==' ') count=0;
 			 
