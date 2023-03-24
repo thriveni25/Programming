@@ -1,4 +1,4 @@
- package testyanthra;
+ package NumberProgramms;
 
 import java.util.Scanner;
 

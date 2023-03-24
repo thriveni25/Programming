@@ -1,4 +1,4 @@
-package testyanthra;
+package NumberProgramms;
 import java.util.Scanner;
 public class CompositeNum {
 	public static void main(String[] args) {
