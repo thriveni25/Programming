@@ -29,7 +29,7 @@ public class RemoveElementAtParticularPosition {
 		}
 		else
 		{*/
-		int [] arr1= new int[arr.length];
+		int [] arr1= new int[arr.length-1];
 		
 		int temp=0;
 		
@@ -46,7 +46,7 @@ public class RemoveElementAtParticularPosition {
 	       	
 	    }
 		//System.out.println("=====Updated array elements are... =====");
-		for (int i = 0; i <arr.length-1; i++) 
+		for (int i = 0; i <arr1.length; i++) 
 		{
 			System.out.print(arr1[i]+" ");
 		}
