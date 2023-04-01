@@ -9,7 +9,7 @@ public class Array_asc_dsc
 	public static void main(String[] args)
 	{
 		String[]s= {"one","two","three","four"};
-		System.out.println("before sorting");
+		System.out.println("=====before sorting=====");
 		for(String string:s)
 		{
 			System.out.println(string);
@@ -18,13 +18,14 @@ public class Array_asc_dsc
 	
 		Arrays.sort(s);
 	
-		System.out.println("after sorting");
+		System.out.println("======after sorting======");
 		for(String string:s)
 		{
 			System.out.println(string);
 		}
+	//Sort based on desending oreder
 	Arrays.sort(s,Collections.reverseOrder());
-	System.out.println("sorting elements in desending order");
+	System.out.println("====desending order===");
 	for(String string:s)
 	{
 		System.out.println(string);

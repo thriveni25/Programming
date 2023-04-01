@@ -11,8 +11,8 @@ public class delete_element_using_stream
 		System.out.println("original arrays="+Arrays.toString(n));
 		int index=3;
 		
- int [] newArray=IntStream.range(0, n.length).filter( i->i!=index).map(i->n[i]).toArray();
-	System.out.println(" NewArray after delection="+Arrays.toString(newArray));
+		int [] newArray=IntStream.range(0, n.length).filter( i->i!=index).map(i->n[i]).toArray();
+		System.out.println(" NewArray after delection="+Arrays.toString(newArray));
  
 	}
 

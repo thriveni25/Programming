@@ -7,7 +7,7 @@ public class Duplicate_element
 {
 public static void main(String[] args)
 {
-	String[]duplicates=new String[] {"java","sql","web","sql"};
+	String[]duplicates=new String[] {"sql","java","sql","web","sql","sql","sql"};
 	
 	Set nonDuplicateSet=new HashSet<>();
 	Set DuplicateSet=new HashSet<>();
