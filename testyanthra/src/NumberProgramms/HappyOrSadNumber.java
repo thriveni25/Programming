@@ -21,11 +21,11 @@ public class HappyOrSadNumber {
 				System.out.println(" Happy number");
 				break;
 			}
-			else if(num==4)
-			{
-				System.out.println("Sad number");
-				break;
-			}
+//			else if(num==4)
+//			{
+//				System.out.println("Sad number");
+//				break;
+//			}
 			}}
 			}
 

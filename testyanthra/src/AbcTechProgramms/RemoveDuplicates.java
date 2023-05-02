@@ -20,11 +20,11 @@ public class RemoveDuplicates {
 	    	 }
 	    	 else
 	    	 {
-	    		 int oldv=map.get(y[i]);
-	    		 int newval=oldv+1;
+	    		 int oldval=map.get(y[i]);
+	    		 int newval=oldval+1;
 	    		 map.put(y[i],newval);
 	    	 }
-	    	 ++i;
+	    	 i++;
 	     }
 	     Set<Map.Entry<Character,Integer>> hmap=map.entrySet();
 	     String res="";

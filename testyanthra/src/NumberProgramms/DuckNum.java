@@ -3,7 +3,7 @@ package NumberProgramms;
 public class DuckNum {
 
 	public static void main(String[] args) {
-		/*int n=702;
+		int n=902;
 		int c=0;
 		boolean flag=false;
 		while(n>9) {
@@ -22,10 +22,10 @@ public class DuckNum {
 		}
 		}
 		if(flag==true) System.out.println("Duck num");
-		else System.out.println("Not Duck");*/
+		else System.out.println("Not Duck");
 		
 		
-		String s="325013";
+		/*String s="325013";
 		
 		boolean flag=true;
 		if(s.charAt(0)=='0') 
@@ -51,6 +51,6 @@ public class DuckNum {
 		}
 		else {
 			System.out.println("not duck");
-		}
+		}*/
 	}
 }

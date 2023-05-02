@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class HashSetProduct {
 
 	public static void main(String[] args) {
-		HashSet hs=new HashSet();
+	HashSet hs=new HashSet();
 		hs.add(1);
 		hs.add(2);
 		hs.add(3);
@@ -21,6 +21,10 @@ public class HashSetProduct {
 			prod=prod*n;	
 		}
 		System.out.println(prod);
+		
+		
+		
+	  
 
 	}
 
