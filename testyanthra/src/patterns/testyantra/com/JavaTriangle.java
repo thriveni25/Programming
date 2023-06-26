@@ -7,11 +7,11 @@ public class JavaTriangle {
 		        Scanner sc= new Scanner(System.in);
 		        System.out.println("Enter the string: ");
 		        String x= sc.next();
-		        int i,j;
-		        int l = x.length();
-		        for(i = 0;i<= l;i++)
+		        
+		        int l = x.length()-1;
+		        for(int i = 0;i<= l;i++)
 		        {
-		            for(j = 0;j<i;j++)
+		            for(int j = 0;j<=i;j++)
 		                System.out.print (x.charAt(j));
 		            System.out.println ();
 		        }

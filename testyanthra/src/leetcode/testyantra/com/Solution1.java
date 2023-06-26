@@ -24,7 +24,7 @@ public class Solution1 {
 		Arrays.sort(nums, 0, k);
 		for (int t = 0; t < k; t++) {
 		    assert nums[t] == expectedNums[t];
-		    System.out.println(nums[t]+" ");
+		    System.out.print(nums[t]+" ");
 		}
 
 	}

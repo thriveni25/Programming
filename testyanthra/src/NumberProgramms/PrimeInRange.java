@@ -9,6 +9,7 @@ public class PrimeInRange {
 		System.out.println("Enter range:");
 		int n=scn.nextInt();
 		
+		int sum=0;
 		for(int i=1;i<=n;i++) {
 			boolean flag=true;
 			if(i<=1) {
@@ -23,12 +24,12 @@ public class PrimeInRange {
 			}
 			if(flag==true) {
 				System.out.println(i+" prime");
+				sum+=i;
 			}
-			else {
-				System.out.println(i+"not prime ");
-			}
+			
+			
 		}
-		
+		System.out.println(sum);
 	}
 
 }

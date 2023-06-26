@@ -66,6 +66,8 @@ public class Calculator {
 			discount();
 			break;
 		}
+		default:
+			System.out.println("Invalid Number");
 		}
 
 	}

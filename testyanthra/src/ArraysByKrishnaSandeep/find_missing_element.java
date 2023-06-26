@@ -6,9 +6,9 @@ public class find_missing_element
 {
 	public static void main(String[] args) 
 	{
-		int []a= {1,2,3,4,5,6,7,9};
+		int []a= {1,2,3,5};
 	
-		int missingNumber=getMissingNumber(a,9);
+		int missingNumber=getMissingNumber(a,5);
 		System.out.printf("Missing Numberin Arrays %s %d %n",Arrays.toString(a),missingNumber);
 		
 	}

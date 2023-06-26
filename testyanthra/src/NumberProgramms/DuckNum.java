@@ -3,7 +3,7 @@ package NumberProgramms;
 public class DuckNum {
 
 	public static void main(String[] args) {
-		int n=902;
+		int n=709807;
 		int c=0;
 		boolean flag=false;
 		while(n>9) {

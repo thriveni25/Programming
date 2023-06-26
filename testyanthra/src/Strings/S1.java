@@ -16,6 +16,7 @@ public class S1 {
 		System.out.println("*********************");
 		
 		System.out.println(s.contains("Go"));
+		
 		System.out.println(s.concat(" Be happy"));
 		System.out.println("*********************");
 		

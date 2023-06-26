@@ -7,9 +7,8 @@ public class BiggestInRow {
 		   
 		        
 		        for(int i = 0; i < a.length; i++) {
-		        
-		        	int max = a[0][0];    
-		            for(int j = 0; j < a[i].length; j++) {
+		        	int max = 0;    
+		            for(int j = 0; j < a[0].length; j++) {
 		                if(a[i][j] > max) {
 		                    max = a[i][j];
 		                }
@@ -17,6 +16,7 @@ public class BiggestInRow {
 		            }
 		            System.out.println( max);
 		        }
+		
 		       
 }
 

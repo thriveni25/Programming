@@ -8,18 +8,19 @@ public class NumPyramid3 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter num: ");
 		int n=sc.nextInt();
-		int c=0;
+		int c=1;
 		for(int i=1;i<=n;i++) {
 			for(int j=1;j<=n-i;j++) {
 				System.out.print(" ");
 			}
 			for(int k=1;k<=2*i-1;k++) {
-				if(c%2==1) {
-				System.out.print("0");
-				
-				}
-				else
-					System.out.print("1");
+//				if(c%2==1) {
+//				System.out.print("0");
+//				
+//				}
+//				else
+//					System.out.print("1");
+				System.out.print(c%2);
 				c++;
 			}
 			

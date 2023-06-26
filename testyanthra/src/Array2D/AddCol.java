@@ -12,7 +12,7 @@ public class AddCol {
 	    	   {
 	    		   sum+=a1[j][i];
 	    	   }
-	    	   System.out.print(sum+" ");
+	    	   System.out.println(sum+" ");
 	       }
 		 
 	}

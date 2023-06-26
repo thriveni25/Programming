@@ -5,7 +5,7 @@ public class HappyOrSadNumber {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter The  Number...");
 		int num=sc.nextInt();
-		int temp=num;
+		//int temp=num;
 		   while(true)
 		   {
 			int sum=0;
@@ -19,13 +19,13 @@ public class HappyOrSadNumber {
 			if(num==1)
 			{
 				System.out.println(" Happy number");
+			  	break;
+			}
+			else if(num==4)
+			{
+				System.out.println("Sad number");
 				break;
 			}
-//			else if(num==4)
-//			{
-//				System.out.println("Sad number");
-//				break;
-//			}
 			}}
 			}
 

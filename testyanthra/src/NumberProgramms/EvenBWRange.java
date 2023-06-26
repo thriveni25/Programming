@@ -9,9 +9,8 @@ public class EvenBWRange {
 		if(i%2==0){
 		System.out.println("Even number are :" +i);
 		}
-		}
-
-
 	}
+
+}
 
 }

@@ -10,6 +10,7 @@ public class Armstrong {
 	      int n = sc.nextInt();
 	      int num=n;
 	      int count=0;
+	      
 	      while(num>0) {
 	    	  count++;
 	    	  num/=10;
